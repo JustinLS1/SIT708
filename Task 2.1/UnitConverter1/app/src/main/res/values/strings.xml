@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Unit Converter</string>
+    <string name="from">From</string>
+    <string name="source">1</string>
+    <string name="to">To</string>
+    <string name="destination">2</string>
+    <string name="equal">=</string>
+    <string name="input">Enter Value</string>
+    <string name="convert">Convert</string>
+    <string name="converted">Converted Value</string>
+    <string name="empty">Please enter a value</string>
+    <string name="invalidc">Invalid Conversion</string>
+    <string name="invalidn">Please enter a valid number</string>
+    <string name="same">Same Unit</string>
+
+    <string name="inches">Inches</string>
+    <string name="feet">Feet</string>
+    <string name="yard">Yards</string>
+    <string name="mile">Miles</string>
+    <string name="cm">Centimeters</string>
+    <string name="km">Kilometers</string>
+
+    <string name="pound">Pounds</string>
+    <string name="ounce">Ounces</string>
+    <string name="ton">Tons</string>
+    <string name="kilo">Kilograms</string>
+    <string name="gram">Grams</string>
+
+    <string name="celsius">Celsius</string>
+    <string name="fahrenheit">Fahrenheit</string>
+    <string name="kelvin">Kelvin</string>
+
+    <string-array name="unit_options">
+        <item>@string/inches</item>
+        <item>@string/feet</item>
+        <item>@string/yard</item>
+        <item>@string/mile</item>
+        <item>@string/cm</item>
+        <item>@string/km</item>
+        <item>@string/pound</item>
+        <item>@string/ounce</item>
+        <item>@string/ton</item>
+        <item>@string/kilo</item>
+        <item>@string/gram</item>
+        <item>@string/celsius</item>
+        <item>@string/fahrenheit</item>
+        <item>@string/kelvin</item>
+    </string-array>
+
+</resources>
