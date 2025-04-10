@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Quiz</string>
+    <string name="title">SIT708 Quiz App</string>
+    <string name="name">Enter your name:</string>
+    <string name="nameinput">Name</string>
+    <string name="startbutton">Start</string>
+    <string name="next">Next</string>
+    <string name="congrats">Congratulations</string>
+    <string name="place">-</string>
+    <string name="score">YOUR SCORE:</string>
+    <string name="buttonreset">Take New Quiz</string>
+    <string name="buttonexit">Finish</string>
+    <string name="submit">Submit</string>
+    <string name="welcome">Welcome</string>
+    <string name="question">Question</string>
+
+    <string name="question1">What is the capital of France?</string>
+
+    <string name="q1answer1">Madrid</string>
+    <string name="q1answer2">Paris</string>
+    <string name="q1answer3">London</string>
+
+    <string name="question2">Which continent is Hungary in?</string>
+
+    <string name="q2answer1">Europe</string>
+    <string name="q2answer2">Asia</string>
+    <string name="q2answer3">South America</string>
+
+    <string name="question3">How many continents are there in the world?</string>
+
+    <string name="q3answer1">6</string>
+    <string name="q3answer2">7</string>
+    <string name="q3answer3">8</string>
+
+    <string name="question4">Which country is most north on the map?</string>
+
+    <string name="q4answer1">Denmark</string>
+    <string name="q4answer2">Netherlands</string>
+    <string name="q4answer3">Finland</string>
+
+    <string name="question5">Which continent contains the largest population percentage?</string>
+
+    <string name="q5answer1">Asia</string>
+    <string name="q5answer2">North America</string>
+    <string name="q5answer3">Africa</string>
+
+</resources>

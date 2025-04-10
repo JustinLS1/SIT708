@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">SIT708 Calculator</string>
+    <string name="hint">Enter a number</string>
+    <string name="number1">Number 1</string>
+    <string name="number2">Number 2</string>
+    <string name="operation">Choose an operation below</string>
+    <string name="add">Add</string>
+    <string name="subtract">Subtract</string>
+    <string name="result">Result</string>
+    <string name="results">Result Here</string>
+</resources>

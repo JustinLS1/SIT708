@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_marginTop="100dp">
+
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:layout_gravity="center" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/question_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/place"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginEnd="12dp" />
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:max="100"
+            android:progress="20" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/questionnumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/question"
+        android:textSize="40sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/textViewQuestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:text="@string/place"
+        android:textColor="@color/black"
+        android:textSize="30sp" />
+
+    <RadioButton
+        android:id="@+id/answer1"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/radiobutton_design"
+        android:button="@null"
+        android:padding="16dp"
+        android:text="@string/place"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        tools:ignore="DuplicateSpeakableTextCheck" />
+
+    <RadioButton
+        android:id="@+id/answer2"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="@string/place"
+        android:button="@null"
+        android:textSize="20sp"
+        android:background="@drawable/radiobutton_design"
+        android:padding="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_gravity="center"
+        android:gravity="center" />
+
+    <RadioButton
+        android:id="@+id/answer3"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="@string/place"
+        android:button="@null"
+        android:textSize="20sp"
+        android:background="@drawable/radiobutton_design"
+        android:padding="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_gravity="center"
+        android:textAlignment="center"/>
+
+    <Button
+        android:id="@+id/buttonSubmit"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="@string/submit"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:textAllCaps="false" />
+
+</LinearLayout>
