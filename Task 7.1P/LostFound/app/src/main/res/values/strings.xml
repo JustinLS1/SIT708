@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Lost&amp;Found</string>
+    <string name="advertButton">CREATE A NEW ADVERT</string>
+    <string name="listButton"><![CDATA[SHOW ALL LOST & FOUND ITEMS]]></string>
+
+    <string name="type">Post type:</string>
+    <string name="lost">Lost</string>
+    <string name="found">Found</string>
+    <string name="name">Name:</string>
+    <string name="phone">Phone:</string>
+    <string name="description">Description:</string>
+    <string name="date">Date:</string>
+    <string name="location">Location:</string>
+    <string name="save">SAVE</string>
+
+    <string name="item"><![CDATA[LOST & FOUND ITEMS]]></string>
+
+    <string name="place">Test Test Test</string>
+    <string name="remove">REMOVE</string>
+
+</resources>
